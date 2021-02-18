@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def total 
-    
+    self.total * ((100 - self.discount)/100) 
   end
   
   def add_item 
